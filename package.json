@@ -1,7 +1,10 @@
 {
   "name": "bases",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "first bases react´ts",
+  "main": "index.js",
+  "author": "duvan <duvanli@hotmail.es>",
+  "license": "MIT",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
@@ -10,6 +13,7 @@
     "@types/node": "^16.11.24",
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.11",
+    "gsap": "^3.9.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
@@ -21,12 +25,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
