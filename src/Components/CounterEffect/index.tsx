@@ -15,8 +15,6 @@ export const CounterEffect = ({ initialValue = 5 }: Props) => {
 
   useEffect(() => {
     if (number === 10) {
-      console.log('%c El numero es 10', 'color:white; background-color:aqua');
-
       const tl = gsap.timeline();
       tl.to(counterElement.current, {
         y: -10,
