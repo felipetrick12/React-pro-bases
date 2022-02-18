@@ -3,6 +3,8 @@ import { Counter } from './Components/Counter';
 import { CounterBy } from './Components/CounterBy';
 import { CounterEffect } from './Components/CounterEffect/index';
 import { CounterEffectHook } from './Components/CounterHook';
+import { CounterComponentReducer } from './Core';
+// import { CounterComponentReducer } from './Components/CounterComponentReducer/index';
 import './index.css';
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
       <CounterBy />
       <CounterEffect />
       <CounterEffectHook />
+      <CounterComponentReducer />
     </>
   );
 }
